@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome to Kokoa Talk</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+        <!--WiFi-->
+      </div>
+
+      <div class="status-bar__column">
+        <span>19:47</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>140%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <!--battery-->
+
+        <i class="fa-solid fa-bolt-lightning"></i>
+        <!--Lightning-->
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+      <p class="welcome-header__text">
+        If tou have a KoKoa Account,log in wiht your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign In" />
+      <a href="#">Fine KoKoa Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <apsn>Your screen is to big...</apsn>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://replit.com/public/js/replit-badge.js"
+      theme="blue"
+      defer
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3532041ae5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!--https://heroicons.com/-->
+<!--https://fontawesome.com/-->

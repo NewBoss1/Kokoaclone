@@ -1,2 +1,0 @@
-# Kokoaclone
-Created with CodeSandbox
